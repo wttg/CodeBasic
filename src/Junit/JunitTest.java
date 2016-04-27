@@ -11,6 +11,7 @@ public class JunitTest {
     @Test
     public void scenario(){
         String[] args = new String[]{"1"};
+        
 
     }
 }

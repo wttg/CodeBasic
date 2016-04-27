@@ -35,8 +35,8 @@ public class KMPTest {
     }
     public static void main(String[] args){
         KMPTest test = new KMPTest();
-        String original = "BBC ABCDABCDABDDABCDABDEABCDABD";
-        String sub = "ABCDABD";
+        String original = "ABCABCABCABCABCABCABCABCABCABC";
+        String sub = "ABCABC";
         test.search(original,sub,test.getNext(sub));
     }
 }
