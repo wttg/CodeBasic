@@ -7,7 +7,7 @@ import java.util.Scanner;
  */
 public class NewCD {
 
-    ThreadLocal threadLocal = new ThreadLocal();
+
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
 
