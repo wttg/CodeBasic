@@ -7,7 +7,7 @@ import java.util.Scanner;
  */
 public class QuickSort {
     int arr[];
-    public void quickSort(int left,int right){
+    public void quickSort(int arr[],int left,int right){
         if(left > right)
             return;
         int temp = arr[left]; //key
@@ -26,8 +26,8 @@ public class QuickSort {
         }
         arr[left] = arr[i];
         arr[i] = temp;
-        quickSort(left,i-1);
-        quickSort(i+1,right);
+        quickSort(arr,left,i-1);
+        quickSort(arr,i+1,right);
     }
 
     public static void main(String args[]){
@@ -41,7 +41,7 @@ public class QuickSort {
         }
 
         System.out.println(count);
-        quickSort.quickSort(0,count-1);
+        quickSort.quickSort(quickSort.arr,0,count-1);
         for (int i:quickSort.arr)
             System.out.print(i + " ");
     }

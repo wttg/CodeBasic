@@ -6,8 +6,8 @@ package AlgorithmAndDataStructure.DynamicProgramming;
 public class LongestCommonSubstring {
     public static void main(String []args){
 
-        String str1 = "asfasfasgasga";
-        String str2 = "gst5ewswfasfasfa";
+        String str1 = "tasfasfasgasga";
+        String str2 = "gst5ewswfasfasfatga";
         int x=0,y=0;//each end of string
         int opt[][] = new int[str1.length()+1][str2.length()+1];
         int max = 0;
