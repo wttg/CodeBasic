@@ -4,6 +4,8 @@ import java.util.Scanner;
 
 /**
  * Created by wt on 2016/7/31.
+ *
+ * Accepted newcoder 出专辑
  */
 public class NewCD {
 
