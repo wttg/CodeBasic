@@ -8,7 +8,7 @@ import java.util.Scanner;
 public class shuixianhua {
     public static void main(String[] args) {
         pingfanggen te = new pingfanggen();
-        te.a = "";
+
         int a[] = new int [1000];
         a[100] = 0;
 

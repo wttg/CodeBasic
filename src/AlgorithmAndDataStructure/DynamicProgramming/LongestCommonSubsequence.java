@@ -46,6 +46,7 @@ public class LongestCommonSubsequence { //change to Main
                 else
                     opt[i][j] = Math.max(opt[i+1][j],opt[i][j+1]);
             }
+        System.out.println(opt[0][0]);
         int i = 0;
         int j = 0;
         while (i < test.length()&&j < sub.length())
