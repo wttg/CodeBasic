@@ -1,5 +1,8 @@
 package ACMTest;
 
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
+
 import java.util.Scanner;
 
 /**
@@ -8,6 +11,7 @@ import java.util.Scanner;
 public class shuixianhua {
     public static void main(String[] args) {
         pingfanggen te = new pingfanggen();
+
 
         int a[] = new int [1000];
         a[100] = 0;

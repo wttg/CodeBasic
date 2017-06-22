@@ -11,7 +11,7 @@ public class LongestCommonSubstring {
         int x=0,y=0;//each end of string
         int opt[][] = new int[str1.length()+1][str2.length()+1];
         int max = 0;
-
+//
         //max large
        // for(int i = 0;i < str1.length()+1;i++)
       //      opt[i][0] = 0;

@@ -1,5 +1,8 @@
 package AlgorithmAndDataStructure;
 
+import java.util.HashMap;
+import java.util.Hashtable;
+import java.util.Map;
 import java.util.Scanner;
 
 /**
@@ -20,7 +23,6 @@ public class Catalan {
                 catalan[i] = catalan[i] %10000009;
             }
         }
-
         Scanner scanner = new Scanner(System.in);
         int count = scanner.nextInt();
         while (count > 0){

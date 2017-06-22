@@ -8,6 +8,7 @@ import java.util.Scanner;
  * BUCT OJ 2051 Accepted.
  * Created by wt on 2016/4/27.
  */
+//
 public class LongestCommonSubsequence { //change to Main
 //    public String LCS(String test,String sub){
 //        String lcs = "";

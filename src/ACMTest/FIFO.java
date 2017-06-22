@@ -15,6 +15,7 @@ public class FIFO {
             int n = in.nextInt();
             int m = in.nextInt();
             int []a = new int[m];
+
             LinkedList<Integer> linkedList = new LinkedList<>();
 
             int j = 0;
