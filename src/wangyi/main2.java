@@ -15,17 +15,19 @@ public class main2 {
                 num1[i] = in.nextInt();
 
             if(num % 2 ==1){
-                for(int j = num-1;j>=0;j -= 2)
-                    System.out.print(num1[j]+" ");
+                System.out.print(num1[num-1]);
+                for(int j = num-3;j>=0;j -= 2)
+                    System.out.print(" "+num1[j]);
                 for(int k = 1;k<num;k += 2)
-                    System.out.print(num1[k]+" ");
+                    System.out.print(" "+num1[k]);
             }
 
             if(num % 2 ==0){
-                for(int j = num-1;j>=0;j -= 2)
-                    System.out.print(num1[j]+" ");
+                System.out.print(num1[num-1]);
+                for(int j = num-3;j>=0;j -= 2)
+                    System.out.print(" "+num1[j]);
                 for(int k = 0;k<num;k += 2)
-                    System.out.print(num1[k]+" ");
+                    System.out.print(" "+num1[k]);
             }
 
         }
